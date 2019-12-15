@@ -4,10 +4,20 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/chat?useSSL=false&serverTimezone=GMT
-    username: root
-    password: cyf123
+    url: jdbc:mysql://192.168.114.138:3306/chat?useSSL=false&serverTimezone=GMT
+    username: chat
+    password: chat
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
+  redis:
+    host: 192.168.114.138
+    port: 6379
+  data:
+    mongodb:
+      host: 192.168.114.138
+      port: 27017
+      database: chat
+      username: chat
+      password: chat

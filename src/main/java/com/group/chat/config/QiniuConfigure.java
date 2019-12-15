@@ -1,4 +1,4 @@
-package com.group.chat.configure;
+package com.group.chat.config;
 
 import org.springframework.context.annotation.Configuration;
 

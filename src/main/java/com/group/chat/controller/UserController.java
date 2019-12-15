@@ -1,6 +1,5 @@
 package com.group.chat.controller;
 
-import com.group.chat.configure.QiniuConfigure;
 import com.group.chat.entity.User;
 import com.group.chat.service.UserService;
 import com.group.chat.utils.QiniuUpload;
@@ -18,7 +17,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
-import java.util.List;
 
 /**
  * @author 陈雨菲
