@@ -19,7 +19,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 @org.springframework.context.annotation.Configuration
-public class QiniuUpload {
+public class QiniuUploadUtil {
 
     public static String upload(MultipartFile file, String fileName) throws IOException {
         Configuration cfg = new Configuration(Zone.zone2());

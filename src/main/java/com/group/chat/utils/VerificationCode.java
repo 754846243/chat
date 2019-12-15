@@ -1,4 +1,4 @@
-package com.group.chat.component;
+package com.group.chat.utils;
 
 import lombok.Data;
 

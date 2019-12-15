@@ -1,6 +1,6 @@
 package com.group.chat.controller;
 
-import com.group.chat.component.VerificationCode;
+import com.group.chat.utils.VerificationCode;
 import com.group.chat.utils.VerificationCodeUtil;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;

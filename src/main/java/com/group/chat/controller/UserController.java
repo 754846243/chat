@@ -2,7 +2,7 @@ package com.group.chat.controller;
 
 import com.group.chat.entity.User;
 import com.group.chat.service.UserService;
-import com.group.chat.utils.QiniuUpload;
+import com.group.chat.utils.QiniuUploadUtil;
 import com.group.chat.utils.ResultVOUtil;
 import com.group.chat.vo.ResultVO;
 import com.group.chat.vo.UserInformationVO;
@@ -78,7 +78,7 @@ public class UserController {
         String fileName = "avatar" + uid + suffixName;
         String avatarUrl;
         try {
-            avatarUrl = QiniuUpload.upload(file, fileName);
+            avatarUrl = QiniuUploadUtil.upload(file, fileName);
         } catch (Exception e) {
             e.printStackTrace();
             return ResultVOUtil.error("500", "图片上传失败");

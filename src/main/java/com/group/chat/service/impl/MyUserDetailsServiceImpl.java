@@ -1,4 +1,4 @@
-package com.group.chat.security;
+package com.group.chat.service.impl;
 
 import com.group.chat.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * @data 2019/12/9
  */
 @Component("userDetailsService")
-public class MyUserDetailsService implements UserDetailsService {
+public class MyUserDetailsServiceImpl implements UserDetailsService {
 
     @Autowired
     private UserService userService;
