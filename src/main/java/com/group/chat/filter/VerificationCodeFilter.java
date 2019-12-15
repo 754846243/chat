@@ -1,6 +1,6 @@
 package com.group.chat.filter;
 
-import com.group.chat.component.VerificationCode;
+import com.group.chat.utils.VerificationCode;
 import com.group.chat.controller.VerificationCodeController;
 import com.group.chat.exception.VerificationCodeException;
 import org.apache.commons.lang3.StringUtils;

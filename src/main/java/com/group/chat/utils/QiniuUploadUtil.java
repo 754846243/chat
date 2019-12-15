@@ -7,7 +7,7 @@ package com.group.chat.utils;
  */
 
 import com.google.gson.Gson;
-import com.group.chat.configure.QiniuConfigure;
+import com.group.chat.config.QiniuConfigure;
 import com.qiniu.common.Zone;
 import com.qiniu.http.Response;
 import com.qiniu.storage.Configuration;
@@ -19,7 +19,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 @org.springframework.context.annotation.Configuration
-public class QiniuUpload {
+public class QiniuUploadUtil {
 
     public static String upload(MultipartFile file, String fileName) throws IOException {
         Configuration cfg = new Configuration(Zone.zone2());

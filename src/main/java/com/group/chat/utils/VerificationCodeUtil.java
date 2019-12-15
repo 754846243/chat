@@ -1,7 +1,5 @@
 package com.group.chat.utils;
 
-import com.group.chat.component.VerificationCode;
-
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package com.group.chat.security.authentication;
+package com.group.chat.config.authentication;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.group.chat.utils.ResultVOUtil;

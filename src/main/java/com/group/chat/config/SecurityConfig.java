@@ -1,4 +1,4 @@
-package com.group.chat.security;
+package com.group.chat.config;
 
 import com.group.chat.filter.VerificationCodeFilter;
 import org.springframework.beans.factory.annotation.Autowired;
