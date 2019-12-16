@@ -1,8 +1,8 @@
-package iscyf.chatroom.service.impl;
+package com.group.chat.service.impl;
 
-import iscyf.chatroom.entity.Impression;
-import iscyf.chatroom.repository.ImpressionRepository;
-import iscyf.chatroom.service.ImpressionService;
+import com.group.chat.entity.Impression;
+import com.group.chat.repository.ImpressionRepository;
+import com.group.chat.service.ImpressionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

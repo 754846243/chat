@@ -1,6 +1,6 @@
-package iscyf.chatroom.service;
+package com.group.chat.service;
 
-import iscyf.chatroom.entity.Impression;
+import com.group.chat.entity.Impression;
 
 import java.util.List;
 

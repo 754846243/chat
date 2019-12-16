@@ -1,16 +1,15 @@
-package iscyf.chatroom.controller;
+package com.group.chat.controller;
 
-import iscyf.chatroom.entity.Impression;
-import iscyf.chatroom.service.ImpressionService;
-import iscyf.chatroom.service.UserService;
-import iscyf.chatroom.utils.ResultVOUtil;
-import iscyf.chatroom.vo.ResultVO;
+import com.group.chat.entity.Impression;
+import com.group.chat.service.ImpressionService;
+import com.group.chat.service.UserService;
+import com.group.chat.utils.ResultVOUtil;
+import com.group.chat.vo.ResultVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
-
 
 @RestController
 @RequestMapping("impressions")

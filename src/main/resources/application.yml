@@ -4,13 +4,16 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.114.138:3306/chat?useSSL=false&serverTimezone=GMT
-    username: chat
-    password: chat
+    url: jdbc:mysql://192.168.114.138:3306/chatroom?useSSL=false&serverTimezone=GMT
+    username: chatroom
+    password: chatroom
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
   redis:
     host: 192.168.114.138
     port: 6379

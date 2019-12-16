@@ -18,8 +18,6 @@ public class Message implements Serializable {
 		this.setTime(new Date());
 	}
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	Long mid;
 
 	Long from;

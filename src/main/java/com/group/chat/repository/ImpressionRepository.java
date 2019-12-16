@@ -1,6 +1,6 @@
-package iscyf.chatroom.repository;
+package com.group.chat.repository;
 
-import iscyf.chatroom.entity.Impression;
+import com.group.chat.entity.Impression;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package iscyf.chatroom.entity;
+package com.group.chat.entity;
 
 import lombok.Data;
 
